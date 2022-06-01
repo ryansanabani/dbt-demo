@@ -1,6 +1,6 @@
 # dbt-demo
 
-This repository is the standart dbt demo using dbt Core, Google Cloud Platforma (GCP), and Big Query.
+This repository is the standart [dbt demo using dbt Core](https://docs.getdbt.com/tutorial/learning-more/getting-started-dbt-core), Google Cloud Platform (GCP), and Big Query.
 
 * GCP
   * Practice creating a BigQuery project and dataset
