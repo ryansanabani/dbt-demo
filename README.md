@@ -10,3 +10,6 @@ This repository is the standart [dbt demo using dbt Core](https://docs.getdbt.co
   * Initializing project
   * Configuring database connection in profiles.yml
   * Testing connection and running sample models
+
+* Github practice
+  * created personal access [token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and pushed to remote
