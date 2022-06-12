@@ -2,15 +2,19 @@ version: 2
 
 models:  
   - name: stg_customers
+    description: This model cleans up the customer data
     columns:
       - name: customer_id
+        description: Primary key
         tests:
           - unique
           - not_null
 
   - name: stg_orders
+    description: This model cleans up order data
     columns:
       - name: order_id
+        description: Primary key
         tests:
           - unique
           - not_null
@@ -19,6 +23,7 @@ models:
           - accepted_values:
               values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
       - name: customer_id
+        description: Join key for customers data
         tests:
           - not_null
           - relationships:
